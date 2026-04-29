@@ -4,10 +4,8 @@
     { "src": "**/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/things/manus-storage/(.*)", "dest": "/manus-storage/$1" },
-    { "src": "/things/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/things/(.*)", "dest": "/index.html" },
-    { "src": "/things", "dest": "/index.html" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/manus-storage/(.*)", "dest": "/manus-storage/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
